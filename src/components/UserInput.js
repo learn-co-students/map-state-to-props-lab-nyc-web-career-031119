@@ -20,6 +20,7 @@ class UserInput extends Component {
   }
 
   render() {
+    // console.log("THE PROPS IN USER INPUT ARE", this.props)
     return(
       <form onSubmit={this.handleOnSubmit}>
         <p>
